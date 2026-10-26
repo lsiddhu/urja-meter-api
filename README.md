@@ -56,6 +56,7 @@ urja-meter-api/
 ├── .gitignore
 ├── openapi.json
 ├── PROTOCOL.md
+├── REFLECTION.md
 ├── README.md
 └── requirements.txt
 ```
@@ -396,6 +397,11 @@ One challenge was initially treating the visible web page as the main source of 
 
 The current API covers a limited set of read-only operations and largely preserves the upstream response format. Broader data coverage, explicit response schemas, automated tests, and more comprehensive authentication recovery would make it more robust and useful.
 
+## Reflection
+
+The development process, assumptions, challenges, mistakes, self-criticism, and potential improvements are documented in [REFLECTION.md](./REFLECTION.md).
+
 ## Disclaimer
 
 This project was developed as an engineering take-home exercise around an existing portal. It is not an official product of Urja Meter Ops or Flock Energy. Access should be limited to authorized users, and all credentials must be handled securely.
+
